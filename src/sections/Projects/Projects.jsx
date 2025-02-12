@@ -4,6 +4,7 @@ import RentRoost from "../../assets/RentRoost.png";
 import ProjectCard from "../../common/ProjectCard";
 import JobHive from "../../assets/JobHive.png";
 import ExpenseTracker from "../../assets/ExpenseTracker.png";
+import codeCollab from "../../assets/CodeCollab.png";
 
 function Projects() {
   return (
@@ -21,6 +22,12 @@ function Projects() {
           link="https://rentroost.onrender.com/"
           h3="RentRoost"
           p="Hotel Rental Site"
+        />
+        <ProjectCard
+          src={codeCollab}
+          link="https://codecollab-2f31.onrender.com"
+          h3="Code Collaborator"
+          p="Live coding easier now!"
         />
         <ProjectCard
           src={ExpenseTracker}
